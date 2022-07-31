@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>counter</title>
+  </head>
+
+  <body>
+
+    <div =container>        
+      <div style=" width: 500px; height: 250px; border: 5px solid rgb(0, 0, 0); padding: 50px; margin: 0px;">
+      <h1>Counter</h1>
+
+      <h2 id="timer">
+        00:00:00
+      </h2>
+      
+      <button onclick="start()">Start</button>     
+      <button onclick="pause()">Pause</button>
+      <button onclick="stop()">Stop</button>
+    </div>
+
+    <h3>Karunanayaka D W A M</h3>
+    <h4>anukamithara@gmail.com</h4>
+
+    <script src="clock.js" async defer></script>
+
+    <style>
+
+      body {
+        position: absolute;
+        left: 0%;
+        text-align: center;
+      }
+
+      .container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        text-align: center;
+      }
+
+      button {
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        background-color: grey;
+        color: black;
+      }
+
+      button:hover {
+        background-color: black;
+        color: white;        
+      }
+
+      h1 {
+        font-size: 50px;
+        color: black;
+        text-align: center;        
+      }
+
+      h2 {
+        color: black;
+        margin: 100 50px;
+        font-size: 35px;
+      }    
+    </style>
+  </body>
+</html>
